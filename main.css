@@ -3,6 +3,8 @@ body {
   padding: 0;
 }
 
+/* navigation */
+
 nav {
   display: flex;
   width: 100%;
@@ -42,4 +44,11 @@ nav ul li {
 
 nav ul li a {
   font-size: 1.15em;
+}
+
+/* Figure */
+
+figure img {
+  width: 250px;
+  height: 250px;
 }

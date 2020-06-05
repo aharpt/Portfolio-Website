@@ -60,7 +60,7 @@ footer p {
   font-size: 0.8em;
 }
 
-/* Homepage Figure */
+/* home page */
 
 figure img {
   width: 400px;
@@ -72,8 +72,6 @@ figure img {
   display: flex;
   flex-direction: column;
 }
-
-/* about page image */
 
 #image-section {
   display: flex;
@@ -87,8 +85,26 @@ figure img {
   height: 200px;
 }
 
-/* about page paragraph */
-
 #about-section {
   margin: 20px;
+}
+
+/* contact page */
+
+#main-contact-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-paragraph-section {
+  margin: 20px;
+}
+
+#contact-section {
+  margin: 20px;
+}
+
+#contact-section ul li {
+  list-style-type: none;
+  margin: 15px;
 }

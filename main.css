@@ -12,7 +12,12 @@ nav {
 nav a {
   text-decoration: none;
   color: black;
-  width: 50%;
+  width: 40%;
+  color: white;
+}
+
+nav a#logo {
+  margin-left: 10px;
 }
 
 nav h1 {
@@ -25,7 +30,7 @@ nav h3 {
 
 nav ul {
   display: flex;
-  width: 50%;
+  width: 60%;
   padding-left: 0;
   align-self: center;
 }
@@ -33,4 +38,8 @@ nav ul {
 nav ul li {
   list-style-type: none;
   margin-right: 20%;
+}
+
+nav ul li a {
+  font-size: 1.15em;
 }

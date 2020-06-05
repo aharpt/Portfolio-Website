@@ -21,6 +21,7 @@ nav ul {
   display: flex;
   width: 50%;
   padding-left: 0;
+  align-self: center;
 }
 
 nav ul li {

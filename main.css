@@ -46,13 +46,6 @@ nav ul li a {
   font-size: 1.15em;
 }
 
-/* Figure */
-
-figure img {
-  width: 400px;
-  height: 300px;
-}
-
 /* footer */
 
 footer {
@@ -65,4 +58,37 @@ footer {
 footer p {
   text-align: center;
   font-size: 0.8em;
+}
+
+/* Homepage Figure */
+
+figure img {
+  width: 400px;
+  height: 300px;
+}
+/* about page */
+
+#main-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* about page image */
+
+#image-section {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#about-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* about page paragraph */
+
+#about-section {
+  margin: 20px;
 }

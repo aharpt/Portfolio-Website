@@ -108,3 +108,8 @@ figure img {
   list-style-type: none;
   margin: 15px;
 }
+
+#contact-section ul li a:visited {
+  /* from Stack Overflow post https://stackoverflow.com/questions/8188060/how-to-make-link-not-change-color-after-visited */
+  color: blue;
+}

@@ -35,6 +35,7 @@ nav ul {
   width: 60%;
   padding-left: 0;
   align-self: center;
+  justify-content: space-between;
 }
 
 nav ul li {
@@ -45,6 +46,25 @@ nav ul li {
 nav ul li a {
   font-size: 1.15em;
 }
+
+/* big screen navigation */
+
+@media (min-width: 767px) {
+
+  nav a {
+    width: 65%;
+  }
+
+  nav ul {
+    width: 35%;
+  }
+
+  nav ul li#last-li {
+    margin-right: 10%;
+  }
+}
+
+
 
 /* footer */
 

@@ -91,6 +91,7 @@ figure img {
 #main-section {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 #image-section {
@@ -107,6 +108,23 @@ figure img {
 
 #about-section {
   margin: 20px;
+}
+
+/* big screen about page */
+
+@media (min-width: 767px) {
+  #main-section {
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  #image-section {
+    width: 30%;
+  }
+
+  #about-section {
+    width: 70%;
+  }
 }
 
 /* contact page */

@@ -151,3 +151,15 @@ figure img {
   /* from Stack Overflow post https://stackoverflow.com/questions/8188060/how-to-make-link-not-change-color-after-visited */
   color: blue;
 }
+
+/* contact page styles for large screens */
+@media (min-width: 767px) {
+  #main-contact-section {
+    flex-direction: row;
+  }
+
+  #contact-paragraph-section,
+  #contact-section {
+    width: 50%;
+  }
+}
